@@ -1,0 +1,27 @@
+yabai -m space 1 --label one
+yabai -m space 2 --label two
+yabai -m space 3 --label three
+yabai -m space 4 --label four
+yabai -m space 5 --label five
+yabai -m space 6 --label six
+
+yabai -m rule --add app="^System Preferences$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Karabiner-Elements$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Karabiner-EventViewer$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Finder$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Installer$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Spotify$" sticky=on layer=above manage=off
+yabai -m rule --add app="^Calculator$" sticky=on layer=above manage=off
+
+yabai -m config top_padding 20
+yabai -m config bottom_padding 20
+yabai -m config left_padding 20
+yabai -m config right_padding 20
+yabai -m config window_gap 20
+
+yabai -m config layout bsp
+
+yabai -m config window_border on
+yabai -m config window_border_width 4
+yabai -m config active_window_border_color 0xFF40FF00
+yabai -m config normal_window_border_color 0x00FFFFFF

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<map name="Backup">
+		<value name="Version">4.27.168</value>
+	</map>
+	<map name="CommonSettings">
+		<value name="DemoDeviceModeEnabled">false</value>
+	</map>
+	<map name="DataCollectionSettings">
+		<value name="first_appearance_at">2022-08-16T21:25:28.758Z</value>
+		<value name="first_icue_ver">4.27.168</value>
+		<value name="inited">true</value>
+		<value name="machine_id">820a1b0bec0701a530a7ed41d905d8c7</value>
+		<value name="previous_close_timestamp">1662146080700</value>
+		<value name="session_ended">true</value>
+		<value name="total_icue_starts">6</value>
+		<value name="total_time_used">149311463</value>
+		<value name="user_id">22481adabfafbc9a73dea3ef2959f320d922bbe7304f278b82a720079ce5ee20</value>
+	</map>
+	<map name="DeviceListWatcher">
+		<map name="device_list">
+			<map name="1">
+				<value name="device_id">c71299dcacad75e99ee713c14eec89a7</value>
+				<value name="device_type">4</value>
+				<value name="is_connected">false</value>
+				<value name="is_corsair">false</value>
+				<value name="last_appearance">2022-08-26T01:23:36.820</value>
+				<value name="model_name">Schiit Modi 3</value>
+				<value name="pid">102</value>
+				<value name="serial_number"></value>
+				<value name="vid">3468</value>
+			</map>
+			<map name="2">
+				<value name="device_id">3fb32b9158e22732463920977d6062e1</value>
+				<value name="device_type">16</value>
+				<value name="is_connected">true</value>
+				<value name="is_corsair">false</value>
+				<value name="last_appearance">2022-09-02T12:14:37.824</value>
+				<value name="model_name">Apple Internal Keyboard / Trackpad</value>
+				<value name="pid">635</value>
+				<value name="serial_number">FM783040459J3VXAR+RCN</value>
+				<value name="vid">1452</value>
+			</map>
+			<value name="size">2</value>
+		</map>
+		<value name="device_list_saved_correctly">true</value>
+	</map>
+	<value name="Language">en</value>
+	<value name="LastDataCollectionConsentAppVersion">4.27.168</value>
+	<map name="LastDir">
+		<value name="ProfileProgramLink">/Applications</value>
+	</map>
+	<value name="LastLoadedAppVersion">4.27.168</value>
+	<map name="LightingLibraryStorage">
+		<value name="version">401</value>
+	</map>
+	<map name="Lightings">
+		<map name="Instant">
+			<value name="Enabled">false</value>
+		</map>
+	</map>
+	<map name="Privacy">
+		<value name="DataCollectionConsent">true</value>
+		<value name="DataCollectionConsentTimestamp">30 Aug 2022 13:59:04 -0700</value>
+	</map>
+	<map name="QQControlsFileDialog">
+		<binary name="favoriteFolders">%00%00%00%09%00%00%00%00%00</binary>
+		<value name="height">0</value>
+		<value name="sidebarSplit">139.5</value>
+		<value name="sidebarVisible">true</value>
+		<value name="sidebarWidth">80</value>
+		<value name="width">0</value>
+	</map>
+	<map name="Storage Locations">
+		<value name="-Users-neilwarren-Library-Application Support-Corsair-CUE4-sensors-UserProps">true</value>
+	</map>
+	<map name="SwUpdate">
+		<value name="LastCheckDate">2022-09-05</value>
+	</map>
+	<value name="defaultProfile">{6cd71b5b-3931-40b3-b349-10604b36d69e}</value>
+</config>
