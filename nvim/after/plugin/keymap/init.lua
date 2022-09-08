@@ -9,6 +9,7 @@ local xnoremap = Remap.xnoremap
 --nnoremap("<leader>vm", ":vsp $MYVIMRC<CR>")
 nnoremap("<leader>s", ":so %<cr>")
 nnoremap("<leader>q", ":q<cr>")
+nnoremap("<leader>w", ":w<cr>")
 nnoremap("<leader>=g", "msgg=G`s")
 nnoremap("<leader>l", ":Lexplore<cr>")
 nnoremap("<leader>ff", "<cmd>Telescope find_files<cr>")
