@@ -97,15 +97,11 @@
                             {
                                 "conditions": [
                                     {
-                                        "description": "External Keyboard",
+                                        "description": "Corsair K95",
                                         "identifiers": [
                                             {
-                                                "product_id": "6929",
-                                                "vendor_id": "6940"
-                                            },
-                                            {
-                                                "product_id": "640",
-                                                "vendor_id": "13364"
+                                                "product_id": 6929,
+                                                "vendor_id": 6940
                                             }
                                         ],
                                         "type": "device_if"
@@ -129,15 +125,11 @@
                             {
                                 "conditions": [
                                     {
-                                        "description": "External Keyboard",
+                                        "description": "Corsair K95",
                                         "identifiers": [
                                             {
-                                                "product_id": "6929",
-                                                "vendor_id": "6940"
-                                            },
-                                            {
-                                                "product_id": "640",
-                                                "vendor_id": "13364"
+                                                "product_id": 6929,
+                                                "vendor_id": 6940
                                             }
                                         ],
                                         "type": "device_if"
@@ -154,43 +146,6 @@
                                 "to": [
                                     {
                                         "key_code": "left_command"
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Swap right_command with right_option",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "right_command",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "right_option"
-                                    }
-                                ],
-                                "type": "basic"
-                            },
-                            {
-                                "from": {
-                                    "key_code": "right_option",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "right_command"
                                     }
                                 ],
                                 "type": "basic"
@@ -264,20 +219,6 @@
                         "is_pointing_device": false,
                         "product_id": 34304,
                         "vendor_id": 1452
-                    },
-                    "ignore": false,
-                    "manipulate_caps_lock_led": true,
-                    "simple_modifications": [],
-                    "treat_as_built_in_keyboard": false
-                },
-                {
-                    "disable_built_in_keyboard_if_exists": true,
-                    "fn_function_keys": [],
-                    "identifiers": {
-                        "is_keyboard": true,
-                        "is_pointing_device": true,
-                        "product_id": 640,
-                        "vendor_id": 13364
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
