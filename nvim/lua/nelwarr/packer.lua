@@ -17,6 +17,8 @@ return require('packer').startup(function(use)
     use("folke/tokyonight.nvim")
 	use("neovim/nvim-lspconfig")
     use("dstein64/vim-startuptime")
+    use("tpope/vim-fugitive")
+    use("theprimeagen/harpoon")
     use("nvim-lualine/lualine.nvim", {
         requires = {"kyazdani42/nvim-web-devicons", opt = true}
     })
